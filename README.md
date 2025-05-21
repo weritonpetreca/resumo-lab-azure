@@ -69,3 +69,53 @@ Permite um gerenciamento mais centralizado. Podemos trabalhar com multiseção, 
 Instâncias de Contêiner: oferta de PaaS que executa um contêiner ou pod de contêiners.
 Aplicativos de Contêiner: oferta de PaaS, como instâncias de contêiners, que pode balancear a carga e escalar.
 Serviço de Kubernetes (AKS): serviço de orquestração para contêiners com arquiteturas distribuidas e grandes volumes de contêiners.
+
+### Azure Functions:
+Modelo de execução baseadas em eventos, uma oferta PaaS. Uma programação pra realizar atividades conforme determinadas situações.
+
+## Serviços de Aplicativo Azure:
+Plataforma totalmente gerenciada para criar, implantar e dimensionar aplicativos Web e APIs rapidamente. Trabalha com .NET, .NET Core, Node.js, Java, Python ou Php. Oferta PaaS.
+
+## Serviços de Rede do Azure:
+-A Rede Virtual do Azure (VNet) permite que os recursos do Azure se comuniquem uns com os outros através de um subconjunto de redes, com a internet e com as redes locais. Se temos duas VNets elas nao se comunicam por padrão, temos que ter configurações específicas. Cuidado nas configurações de IPs para não causar Overlap em redes que se comunicam.
+
+-Gateway de VPN: usado para enviar tráfego criptografado entre uma rede virtual do Azure e uma no local pela internet pública.
+
+-Express Route: Comunicação direto via cabo (mais caro), do DataCenter ao cliente.
+
+-DNS do Azure: Resolvedor de Nomes que respondem por um IP. Pode criar nomes de dominios privados e totalmente personalizados
+
+## Microsoft Entra ID
+Serviço de diretório que permite que façamos login tanto de aplicativos de nuvem ou de apps que desenvolvemos, gerenciando as identidades. Garante a autenticação, forneça um logon unico (SSO - Single Sign On) para usar vários serviços,
+
+### Autenticação
+Identifica a pessoa ou serviço buscando acesso a um recurso. Solicita credenciais de acesso legítimo. Base para criar princípios de identidade e controle de acesso de grupos.
+
+### Autorização
+Determina o nível de acesso de uma pessoa ou serviço autenticado. Define quais dados eles podem acessar e o que podem fazer com eles.
+
+## Autenticação Multifator (MFA):
+Fornece segurança adicional para as identidades, exigindo dois ou mais elementos para autenticação completa.
+-Algo que vc sabe -> Algo que vc possui -> Algo que vc é.
+
+## Autenticação B2B (Business to Business)
+Deixar que usuários externos utilizem uma conta de parceiro para acessar diretórios e serviços internos.
+
+## Autenticação B2C (Business to Customer)
+Fornce acesso através de uma identidade externa a um usuário de parte dos serviços disponíveis.
+
+## Acesso Condicional
+-Associação de usuário ou grupo;
+-Local do IP;
+-Dispositivo;
+-Aplicativo;
+-Detecção de Risco;
+
+## Controle de Acesso baseado em Função (RBAC)
+-Gerenciamento de acesso de granularidade fina. Divida as tarefas dentro da equipe e conceda somente a quantidade de acesso que os usuários precisam para trabalhar. O gerenciamento é herdável, todas as permissões abaixo daquela concedida serão disponibilizadas automaticamente.
+
+## Confiança Zero
+Protege os ativos em qualquer lugar com uma política central. Sempre presumir que algo pode dar errado. Uma abordagem em camadas para proteger sistemas de computador. Forncer vários níveis de proteção, então ataques a uma camada são isolados das camadas subsequentes.
+
+## Defender for Cloud
+Serviço de monitoramento que fornece proteção contra ameaças nos Datacenters do Azure e locais. Fornece recomendações, detecta e bloqueia malware, analisa e identifica ataques potenciais e controla o acesso just-in-time para as portas.
