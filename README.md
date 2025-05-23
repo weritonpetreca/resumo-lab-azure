@@ -119,3 +119,9 @@ Protege os ativos em qualquer lugar com uma política central. Sempre presumir q
 
 ## Defender for Cloud
 Serviço de monitoramento que fornece proteção contra ameaças nos Datacenters do Azure e locais. Fornece recomendações, detecta e bloqueia malware, analisa e identifica ataques potenciais e controla o acesso just-in-time para as portas.
+
+## IA Generativa Responsável
+Identificar: Possíveis danos relevantes para a solução desejada.
+Medida: A presença desses danos nas saídas geradas pela solução.
+Mitigar: Os danos em várias camadas em sua solução para minimizar a presença e impacto deles.
+Operar: A solução com responsabilidade definindo e seguindo um plano de implementação e de preparação operacional.
